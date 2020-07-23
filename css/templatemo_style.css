@@ -107,7 +107,7 @@ sub {
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 button,
@@ -491,15 +491,19 @@ hr {
   padding-top: 60px;
 }
 
+
 .heading-section {
   margin-bottom: 60px;
 }
 .heading-section h2 {
+  color: #ec523f;
   font-size: 28px;
   font-weight: 600;
   text-transform: uppercase;
-  border-bottom: 1px solid #444444;
+  border-bottom: 1px solid #ec523f;
+  padding-bottom: 10px;
   display: inline-block;
+  margin-top: 50px;
 }
 .heading-section .row .col-md-3 h3{
   font-size: 20px; 
@@ -625,16 +629,17 @@ hr {
   transition: all 200ms ease-in-out;
 }
 .portfolio-item .portfolio-thumb .portfolio-overlay h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  padding-bottom: 10px;
+  padding-bottom: 0;
   margin-bottom: 10px;
   display: inline-block;
   border-bottom: 1px solid white;
-  margin-top: 50px;
+  margin-top: 20px;
 }
+.portfolio-item .portfolio-thumb .portfolio-overlay p{font-size: 16px; line-height: 25px;}
 .portfolio-item .portfolio-thumb .portfolio-overlay a.expand {
   margin-top: 15px;
   width: 36px;
@@ -650,7 +655,7 @@ hr {
   line-height: 36px;
 }
 .portfolio-item .portfolio-thumb:hover .portfolio-overlay {
-  opacity: 0;
+  opacity: 1;
   visibility: visible;
 }
 
@@ -724,19 +729,30 @@ hr {
 }
 
 .skills-heading {
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
-.skills-heading h3.skills-title {
-  font-style: italic;
+.skills-heading h3{
+  font-style: normal;
   font-size: 18px;
   text-transform: uppercase;
   color: #5e5e5e;
-}
+  text-align: center;
+  margin-left: 30px;
+ }
 .skills-heading .small-text {
   font-style: italic;
 }
-
+.col-md-8{margin-left: -50px;}
+.col-md-8 .add{float: left; margin-left: 200px; margin-right: 50px;}
+.col-md-8 .add img{margin-left: 60px; margin-bottom: 15px;}
+.col-md-8 .add p{font-size: 16px;}
+.col-md-8 .phone{float: left;margin-right: 50px;}
+.col-md-8 .phone img{margin-left: 35px; margin-bottom: 15px;}
+.col-md-8 .phone p{font-size: 16px;}
+.col-md-8 .mail{float: left;}
+.col-md-8 .mail img{margin-left: 70px; margin-bottom: 15px;}
+.col-md-8 .mail p{font-size: 16px;}
 .progress {
   height: 34px;
   box-shadow: none;
@@ -793,10 +809,10 @@ hr {
   text-transform: uppercase;
   font-weight: 700;
 }
-
-#footer {
+  #footer {
   margin-top: 130px;
 }
+
 
 /*
 body, p, div, h1, h2, h3, h4, h5, h6 {

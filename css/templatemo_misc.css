@@ -297,7 +297,7 @@ html[xmlns] .slides {
   background: black;
   /* IE Fallback (Solid Colour) */
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIElEQVQ4T2NkYGDYDMRkA8ZRAxhGw4BhNAyA+WAYpAMAIFgLQfO9BoEAAAAASUVORK5CYII=);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   -webkit-filter: none !important;
 }
 
@@ -310,7 +310,7 @@ html[xmlns] .slides {
 }
 
 body.blurred > * {
-  -webkit-filter: blur(2px);
+  -webkit-filter: none;
   -webkit-transform: translate3d(0, 0, 0);
 }
 
